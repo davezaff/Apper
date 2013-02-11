@@ -14,7 +14,7 @@ height: 55px;
 width: 100px;
 background: transparent ;
 border:none;
-font-size: 100%;
+font-size: 200%;
 }
 
 textarea { 
@@ -33,10 +33,10 @@ border: transparent;
 
   overflow : auto;
   position:center;
-  width:6000px;
+  width:600px;
   height:300px;
   
-  background-size:600px 350px;
+  background-size:auto;
   background-repeat:no-repeat;
   resize: false;
   font-family: Century Gothic, sans-serif;
