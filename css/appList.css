@@ -1,5 +1,5 @@
 
-body {color: white; font-size: 140%; font-family: Century Gothic, sans-serif;}
+body {color: white; font-size: 100%; font-family: Century Gothic, sans-serif;}
 div {
 text-align: center; 
 background: transparent;
@@ -33,8 +33,8 @@ border: transparent;
 
   overflow : auto;
   position:center;
-  width:1000px;
-  height:500px;
+  width:6000px;
+  height:300px;
   
   background-size:600px 350px;
   background-repeat:no-repeat;
