@@ -1,0 +1,65 @@
+
+body {color: white; font-size: 140%; font-family: Century Gothic, sans-serif;}
+div {
+text-align: center; 
+background: transparent;
+border-style:ridged; 
+resize: none;
+font-family: Century Gothic, sans-serif;
+font-size: 100%;
+
+}
+button{
+height: 55px; 
+width: 100px;
+background: transparent ;
+border:none;
+font-size: 100%;
+}
+
+textarea { 
+    resize: none; 
+	overflow: hidden;
+	background-color: ##FFCCCC;
+	border-style:ridged;
+	font-family:Century Gothic, sans-serif;
+	font-size: 100%;
+
+}
+
+
+#accordion{
+border: transparent;
+
+  overflow : auto;
+  position:center;
+  width:1000px;
+  height:500px;
+  
+  background-size:600px 350px;
+  background-repeat:no-repeat;
+  resize: false;
+  font-family: Century Gothic, sans-serif;
+  font-size: 100%;
+  resize: none;
+  
+  }
+
+
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background: transparent
+}
+
+
+
+ 
+  
