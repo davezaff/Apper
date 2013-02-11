@@ -1,10 +1,12 @@
-$(document).ready(function(){
-		
-			$('#titleBox').focus();
-		
+$(document).ready(
+		function() {
+		$('#titleBox').focus();
+		var x = '0';
 		
 
-			$('#accordion').accordion();
+			$('#accordion').accordion( {
+				heightStyle : "content"
+			});
 			
 			// $('#accordion-resizer').resizable({minHeight:240,
 			// minWidth: 300, resize: function() {
@@ -14,24 +16,21 @@ $(document).ready(function(){
 			
 			$('#datepicker').datepicker();
 
-			$("#txtNote").keypress(
-					function(e) {
-						if ((e.which && e.which == 13)
-								|| (e.keyCode && e.keyCode == 13)) {
-
+			$("#addBtn").click(function() {
+						
 							if ($('#titleBox').val() == ('')
 									|| ($('#txtNote').val() === (''))) {
 								alert('Fields can not be blank!. ');
-							} else {
+							} else
+								{
 
 								 var day = $.datepicker.formatDate('mm-dd-yy ',new Date());
 
-								//var date = new Date();
-								//date.getTime.formatDate('mm-dd-yy;');
-								var x = '0';
+								
+
 								$('#accordion').append(
 										'<h3 id=' + x +'><div id='+(x+1)+'>' + day + '<br>' + 'Title:'+ 
-												+ ($('#titleBox').val())
+												+ ($('#titleBox').val()) 
 												+ "         " + '</h3>'
 												+ '<div>' + '<p>' + "Note:  "+ '<br>'+
 												+ ($('#txtNote').val())
@@ -51,7 +50,7 @@ $(document).ready(function(){
 
 							}
 
-						}
+						
 
 					});
 			$('#removeBtn').click(function() {
@@ -71,5 +70,3 @@ $(document).ready(function(){
 			});
 		
 		});
-		
-		

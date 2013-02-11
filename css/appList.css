@@ -1,20 +1,10 @@
 
 body {color: white; font-size: 100%; font-family: Century Gothic, sans-serif;}
-div {
-text-align: center; 
-background: transparent;
-border-style:ridged; 
-resize: none;
-font-family: Century Gothic, sans-serif;
-font-size: 100%;
 
-}
 button{
-height: 55px; 
-width: 100px;
 background: transparent ;
 border:none;
-font-size: 200%;
+font-size: 250%;
 }
 
 textarea { 
@@ -23,8 +13,7 @@ textarea {
 	background-color: ##FFCCCC;
 	border-style:ridged;
 	font-family:Century Gothic, sans-serif;
-	font-size: 100%;
-
+	
 }
 
 
@@ -32,13 +21,11 @@ textarea {
 border: transparent;
 
   overflow : auto;
-  position:center;
+  position: relative;
   width:600px;
   height:300px;
-  
   background-size:auto;
-  background-repeat:no-repeat;
-  resize: false;
+  resize: true;
   font-family: Century Gothic, sans-serif;
   font-size: 100%;
   resize: none;

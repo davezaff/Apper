@@ -1,55 +1,44 @@
 <!doctype html>
 <head> 
 <html lang="en">
-<link rel="shortcut icon" img="graphics/note.ico"/>
-
-
-  <meta charset="utf-8" />
-  <title>Sonic Notes</title>
-  <link rel="stylesheet" href="css/accordion.css" />
-  <script src="js/jqueryFile.js"></script>
+<meta charset="utf-8" />
+ 
+  
+  <script src='js/jquery-1.9.0.js'></script>
+  
   <script src="js/jquery-ui-1.10.0.custom.js"></script>
+  <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+  <script src="js/appList.js"></script>
+  <link href="css/jquery.mobile.custom.structure.css" rel="stylesheet" type="text/css"/>
   <link href="css/jquery.mobile.custom.css" rel="stylesheet" type="text/css"/>  
+  <link href="css/jquery.mobile.custom.min.css" rel="stylesheet" type="text/css"/>
   <link href="css/jquery.mobile.custom.theme.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="css/appList.css">
-	<script src="js/appList.js"></script>
-</head>
+  <link rel="stylesheet" href="css/accordion.css" />
+  <link rel="stylesheet" href="css/appList.css"/>
+  <link rel="shortcut icon" src="graphics/note.ico"/>
+ </head>
 <center>
 <body><img alt="full screen background image" src="graphics/spot.jpg" id="full-screen-background-image" /> 
-
-
-
+ <title>Sonic Notes</title>
 <br>
-
-
 <p style="font-size: 300%"><i><u>Sonic Notes</u></i></font></p>
-
 <table>
 <center>
-<tr><td>
-Enter Topic : <br><textarea maxlength='250' id="titleBox"></textarea></td>
-
-<td>Enter Note :<br><textarea maxlength='250' id='txtNote'></textarea><td></tr>
+<tr>
+<td>Enter Topic : <br><textarea id ="titleBox"></textarea></td>
+<td>Enter Note :<br><textarea id ="txtNote"></textarea><td>
+Add New Note: <br>
+<input type="button" style="height: 45px; width: 150px "id="addBtn" value="Add Note: " /><br>
+</tr>
 
 </center>
 </table>
- <div id="accordion" background='graphics/page.jpg'> </div>
 
+ <div id="accordion"></div> 
 
+Remove All Notes: <br>
+<input type="button" style="height: 45px; width: 150px "id="removeBtn" value="Clear Notes: " /><br>
 
-<br>
-
-
-Remove All Notes: 
-<input type="button" style="height: 50px; width: 150px "id="removeBtn" value="Clear Notes" /><br>
-
-
- 
- 
-</div>
-
-
-<div>
 <p>Follow Us On: <br>
 <button type='button' onclick="window.location.href='http://www.twitter.com/dzdroid'"><img src="graphics/butt.jpg" /></button>
 <button type='button' onclick="window.location.href='http://www.facebook.com/dave.zaffarano'"><img src="graphics/fbook2.jpg" /></button>
@@ -59,7 +48,7 @@ Remove All Notes:
 Enjoy
 </p>
 </center>
-</div>
+
 
 </body>
 </html>
