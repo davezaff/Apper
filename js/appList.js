@@ -1,12 +1,10 @@
-$(document).ready function(){
+$(document).ready(function(){
 		
 			$('#titleBox').focus();
 		
 		
 
-			$('#accordion').accordion( {
-				heightStyle : "content"
-			});
+			$('#accordion').accordion();
 			
 			// $('#accordion-resizer').resizable({minHeight:240,
 			// minWidth: 300, resize: function() {
