@@ -40,7 +40,7 @@ $(document).ready(
 								$('#txtNote').val("");
 								$('#titleBox').val("");
 
-								alert('Your Note was Successfully added');
+								
 								 
 
  
