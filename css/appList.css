@@ -14,28 +14,35 @@ border:none;
 
 textarea { 
     resize: none; 
-	overflow: hidden;
 	background-color: ##FFCCCC;
 	border-style:ridged;
 	font-family:Century Gothic, sans-serif;
+	
 	
 }
 
 
 #accordion{
 border: solid;
-border: hidden;
+border: none;
+overflow: auto;
+position: left;
+background-size:auto;
+resize: auto;
+font-family: Century Gothic, sans-serif;
+max-width: 350px;
+resize: none;
+text-align: left;
+vertical-align: left;
+text-overflow:ellipsis;
+}
+#accordion li
+{
 
-  overflow : auto;
-  position: relative;
-  background-size:auto;
-  resize: true;
-  font-family: Century Gothic, sans-serif;
-  font-size: 100%;
-  max-width: 350px;
-  resize: none;
+max-width: 200px:
+}
   
-  }
+  
 
 
 
