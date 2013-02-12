@@ -4,7 +4,7 @@ body {color: white; font-size: 100%; font-family: Century Gothic, sans-serif;}
 button{
 background: transparent ;
 border:none;
-font-size: 250%;
+
 }
 
 textarea { 
@@ -18,7 +18,8 @@ textarea {
 
 
 #accordion{
-border: transparent;
+border: solid;
+border: hidden;
 
   overflow : auto;
   position: relative;
