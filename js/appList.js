@@ -29,10 +29,9 @@ $(document).ready(
 								
 
 								$('#accordion').append(
-										'<h3 id=' + x +'><div id='+(x+1)+'>' + day + '<br>' + 'Title:'+ 
-												+ ($('#titleBox').val()) 
-												+ "         " + '</h3>'
-												+ '<div>' + '<p>' + "Note:  "+ '<br>'+
+										'<h3 id=' + x +'>' + day + 'Title:'+ 
+												($('#titleBox').val()) + '<div>'+ '</h3>'
+												+ '<div id ='+(x+1)+'>' + '<p>' + "Note:  "+ '<br>'
 												+ ($('#txtNote').val())
 												+ '</p> </div>');
 												x=x+2;
