@@ -24,10 +24,11 @@ textarea {
 #accordion{
 
   border:hidden;
-  overflow: none;
+  overflow: hide;
   resize: none;
   text-align: left;
   word-wrap: break-word;
+  
   
   
 
@@ -44,7 +45,7 @@ textarea {
   position:fixed;
   top: 0;
   left: 0;
-  background: transparent
+  
 }
 
 
