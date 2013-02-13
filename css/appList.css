@@ -17,23 +17,27 @@ textarea {
 	background-color: ##FFCCCC;
 	border-style:ridged;
 	font-family:Century Gothic, sans-serif;
-	overflow:none;
+	overflow:hidden;
 	
 }
 
 #accordion{
 
   border:hidden;
-  overflow: hide;
+  overflow: hidden;
   resize: none;
   text-align: left;
   word-wrap: break-word;
-  
-  
+  max-width: 400px;
   
 
 }
+table{
 
+
+table-layout: auto;
+
+}
 
 
 #full-screen-background-image {
@@ -45,7 +49,7 @@ textarea {
   position:fixed;
   top: 0;
   left: 0;
-  
+  background: transparent
 }
 
 
