@@ -24,20 +24,15 @@ textarea {
 #accordion{
 
   border:hidden;
-  overflow: fit;
+  overflow: none;
   resize: none;
   text-align: left;
   word-wrap: break-word;
-  max-width: 370px;
+  
   
 
 }
-table{
 
-
-table-layout: fixed;
-
-}
 
 
 #full-screen-background-image {
