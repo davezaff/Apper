@@ -20,7 +20,11 @@ textarea {
 	overflow:hidden;
 	
 }
+h3
+{
+background: transparent;
 
+}
 #accordion{
 
   border:hidden;

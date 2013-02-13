@@ -29,12 +29,14 @@ $(document).ready(
 								
 
 								$('#accordion').append(
-										'<h3 id=' + x +'>'+ '<p>' + day + ' <br>  ' + 'Title:'+ '   '+ 
+										'<h3 id=' + x +'>'+ '<p>'+'Date Created: ' + day + ' <br>  ' + 'Contact Name:'+ '   '+ 
 												($('#titleBox').val()) + '</p></h3>'
-												+ '<div id ='+(x+1)+'>' + '<p>' + "Note:  "+ '<br>'
+												+ '<div id ='+(x+1)+'>' + '<p><b>' + 'Address/Quick Notes:  '+'</b>' + '<br>'
 												+ ($('#txtNote').val())
 												+ '</p> </div>');
 												x=x+2;
+												 
+												
 								$('#accordion').accordion('destroy');
 								$('#accordion').accordion();
 								$('#txtNote').val("");
@@ -44,6 +46,7 @@ $(document).ready(
  
 
 								$('#titleBox').focus();
+								
 
 							}
 
@@ -65,5 +68,12 @@ $(document).ready(
 				alert(" All Notes have been removed! ");
 
 			});
+			
+			$('#accordion').dblclick (function(){
+			
+								
+			});
 		
+		
+				
 		});
