@@ -15,7 +15,7 @@ $(document).ready(
 			// });
 			
 			$('#datepicker').datepicker();
-
+			
 			$("#addBtn").click(function() {
 						
 							if ($('#titleBox').val() == ('')
@@ -48,7 +48,7 @@ $(document).ready(
 								$('#titleBox').focus();
 								
 
-							}
+							};
 
 						
 
