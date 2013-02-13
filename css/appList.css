@@ -29,13 +29,14 @@ textarea {
   text-align: left;
   word-wrap: break-word;
   max-width: 400px;
+  position: fixed:
   
 
 }
 table{
 
-
-table-layout: auto;
+max-width: all elements;
+border:hidden;
 
 }
 

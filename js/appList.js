@@ -29,7 +29,7 @@ $(document).ready(
 								
 
 								$('#accordion').append(
-										'<h3 id=' + x +'>'+ '<p>' + day + 'Title:'+ 
+										'<h3 id=' + x +'>'+ '<p>' + day + ' <br>  ' + 'Title:'+ '   '+ 
 												($('#titleBox').val()) + '</p></h3>'
 												+ '<div id ='+(x+1)+'>' + '<p>' + "Note:  "+ '<br>'
 												+ ($('#txtNote').val())
