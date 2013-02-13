@@ -3,7 +3,7 @@ $(document).ready(
 		$('#titleBox').focus();
 		var x = '0';
 		
-
+			
 			$('#accordion').accordion( {
 				heightStyle : "content"
 			});
