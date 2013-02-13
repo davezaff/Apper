@@ -2,8 +2,9 @@
 body
  {
 color: white; 
-font-size: 100%; 
 font-family: Century Gothic, sans-serif;
+
+
 }
 
 button{
@@ -11,39 +12,32 @@ background: transparent ;
 border:none;
 
 }
-
 textarea { 
     resize: none; 
 	background-color: ##FFCCCC;
 	border-style:ridged;
 	font-family:Century Gothic, sans-serif;
-	
+	overflow:none;
 	
 }
-
 
 #accordion{
-border: solid;
-border: none;
-overflow: auto;
-position: left;
-background-size:auto;
-resize: auto;
-font-family: Century Gothic, sans-serif;
-max-width: 350px;
-resize: none;
-text-align: left;
-vertical-align: left;
-text-overflow:ellipsis;
-}
-#accordion li
-{
 
-max-width: 200px:
-}
-  
+  border:hidden;
+  overflow: fit;
+  resize: none;
+  text-align: left;
+  word-wrap: break-word;
+  max-width: 370px;
   
 
+}
+table{
+
+
+table-layout: fixed;
+
+}
 
 
 #full-screen-background-image {

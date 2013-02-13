@@ -1,9 +1,9 @@
 <!doctype html>
 <head> 
 <html lang="en">
-<meta charset="utf-8" />
+
  
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src='js/jquery-1.9.0.js'></script>
   <script src="js/jquery-ui-1.10.0.custom.js"></script>
   <script src="js/appList.js"></script>
@@ -19,7 +19,7 @@
 <table>
 <center>
 <tr>
-<td>Enter Topic : <br><textarea id ="titleBox" maxlength="35"></textarea></td>
+<td>Enter Topic : <br><textarea id ="titleBox" ></textarea></td>
 <td>Enter Note :<br><textarea id ="txtNote" ></textarea><td>
 
 
@@ -31,16 +31,17 @@ Add New Note: <br>
 <input type="button" id="addBtn" value="Add Note: " /><br></div>
 </table>
 
- <div id="accordion"></div> 
-
+<table>
+ <div id="accordion"></div>
+</table>
 Remove All Notes: <br>
 <input type="button" id="removeBtn" value="Clear Notes: " /><br>
 
 <p>Follow Us On: <br>
-<button type='button' onclick="window.location.href='http://www.twitter.com/dzdroid'"><img src="graphics/butt.jpg" /></button>
-<button type='button' onclick="window.location.href='http://www.facebook.com/dave.zaffarano'"><img src="graphics/fbook2.jpg" /></button>
-<button type='button' onclick="window.location.href='http://www.linkedin.com"><img src="graphics/linkedinpic.ico" /></button>
-<button type='button' onclick="window.location.href='https://plus.google.com/u/0'"><img src="graphics/google-ico.png" /></button>
+<button type='button' background="hidden" onclick="window.location.href='http://www.twitter.com/dzdroid'"><img src="graphics/butt.jpg" /></button>
+<button type='button' background= "hidden" onclick="window.location.href='http://www.facebook.com/dave.zaffarano'"> <img src="graphics/fbook2.jpg" /></button>
+<button type='button' background="hidden" onclick="window.location.href='http://www.linkedin.com"><img src="graphics/linkedinpic.ico" /></button>
+<button type='button' background="hidden" onclick="window.location.href='https://plus.google.com/u/0'"><img src="graphics/google-ico.png" /></button>
 <br>
 Enjoy
 </p>
