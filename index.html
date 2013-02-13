@@ -14,6 +14,7 @@
   <link rel="shortcut icon" src="graphics/note.ico"/>
 
 <body><img alt="full screen background image" src="graphics/miui.jpg" id="full-screen-background-image" /> 
+ 
  <title>Contact Advisor</title>
 <br>
 <center>
@@ -22,8 +23,8 @@
 <table>
 <center>
 <tr>
-<td>Contact Name : <br><textarea id ="titleBox" ></textarea></td>
-<td>Enter Address/Note :<br><textarea id ="txtNote" ></textarea><td>
+<td>Contact Name : <br><textarea id ="titleBox" data-mini="true" ></textarea></td>
+<td>Enter Address/Note :<br><textarea id ="txtNote" data-mini="true" ></textarea><td>
 
 
 </tr>
@@ -31,20 +32,20 @@
 
 
 Add a New Contact: <br>
-<input type="button" id="addBtn" value="Add Contact: " /><br></div>
+<input type="button" id="addBtn" value="Add Contact: " data-mini="true" /><br></div>
 </table>
 
 <table><tr>
- <div id="accordion"></div></tr>
+ <div id="accordion"data-mini="true"></div></tr>
 </table>
 Remove All Notes: <br>
-<input type="button" id="removeBtn" value="Remove all Contacts" /><br>
 
+<input type='button'id="removeBtn" value="Remove all Contacts" data-mini="true" /><br>
 <p><center>Follow Us On: <br>
-<button type='button' background="hidden" onclick="window.location.href='http://www.twitter.com/dzdroid'"><img src="graphics/ico-twitter.png" /></button>
-<button type='button' background= "hidden" onclick="window.location.href='http://www.facebook.com/dave.zaffarano'"> <img src="graphics/bfbook.jpg" /></button>
-<button type='button' background="hidden" onclick="window.location.href='http://www.linkedin.com"><img src="graphics/linkedinpic.ico" /></button>
-<button type='button' background="hidden" onclick="window.location.href='https://plus.google.com/u/0'"><img src="graphics/google-ico.png" /></button>
+<button type='button' background="hidden" onclick="window.location.href='http://www.twitter.com/dzdroid'"><img src="graphics/ico-twitter.png" data-mini="true" /></button>
+<button type='button' background= "hidden" onclick="window.location.href='http://www.facebook.com/dave.zaffarano'"> <img src="graphics/bfbook.jpg" data-mini="true" /></button>
+<button type='button' background="hidden" onclick="window.location.href='http://www.linkedin.com"><img src="graphics/linkedinpic.ico"  data-mini="true" /></button>
+<button type='button' background="hidden" onclick="window.location.href='https://plus.google.com/u/0'"><img src="graphics/google-ico.png"  data-mini="true"/></button>
 <br>
 Enjoy
 
